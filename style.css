@@ -49,7 +49,7 @@ ul {
 }
 
 form {
-    padding: 30px 50px;
+    padding: 30px 70px;
 
     display: flex;
     flex-direction: column;
@@ -93,13 +93,14 @@ form input::-moz-selection {
 }
 
 .form-btn {
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 30px;
     margin-top: 20px;
     border: none;
 
     background-color: var(--main-clr);
-    color: var(--white-clr) ;
+    color: var(--white-clr);
+    font-size: 12px;
 
     outline: 1px solid var(--main-clr);
     outline-offset: -1px;
