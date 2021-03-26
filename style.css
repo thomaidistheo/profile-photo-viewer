@@ -16,6 +16,7 @@
 
 html {
     font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -40,6 +41,7 @@ ul {
     margin-bottom: 20px;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -48,6 +50,9 @@ ul {
 
 form {
     padding: 30px 50px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 form h3 {
@@ -56,10 +61,9 @@ form h3 {
 
 form input {
     height: 40px;
-    width: 100%;
 
     color: var(--black-clr);
-    font-size: 12px;
+    font-size: inherit;
 
     border: 1px solid rgba(31, 32, 32, 0.15);
     padding: 0 5px;
@@ -81,9 +85,11 @@ form input::-moz-selection {
 .error-box {
     background: var(--error-clr);
     color: var(--white-clr);
-    padding: 0 5px;
-    font-size: 14px;
+    padding: 0 30px;
+    font-size: inherit;
     text-align: center;
+
+    margin-bottom: 20px;
 }
 
 .form-btn {
