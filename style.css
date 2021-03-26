@@ -118,7 +118,6 @@ form input::-moz-selection {
 }
 
 .output-img {
-    height: 100%;
     max-width: 100%;
 
     padding-bottom: 18px;
